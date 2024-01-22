@@ -7,15 +7,15 @@ namespace module3
         static void Main(string[] args)
         {
 
-            const string MyName = "Nik"
-            Console.WriteLine(MyName);
+            string MyName = "Jane";
+            byte MyAge = 27;
+            bool HaveIApet = true;
+            double MyShoeSize = 37.5;
 
-            Console.WriteLine("\t Привет Мир");
-            Console.WriteLine("\t Мне 27 лет");
-            Console.WriteLine("\t My name is \n {0}", MyName);
-            Console.WriteLine("\u0040");
-            Console.WriteLine("\u0023");
-            Console.ReadKey();
+            Console.WriteLine("My name is " + MyName);
+            Console.WriteLine("MyAge " + MyAge);
+            Console.WriteLine("Do I have a pet? " + HaveIApet);
+            Console.WriteLine("My shoe size is " + MyShoeSize);
         }
     }
 }
